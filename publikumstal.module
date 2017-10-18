@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the publikumstal feature.
+ */
+
+include_once 'publikumstal.features.inc';
