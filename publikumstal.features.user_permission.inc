@@ -14,6 +14,8 @@ function publikumstal_user_default_permissions() {
   $permissions['access all webform results'] = array(
     'name' => 'access all webform results',
     'roles' => array(
+      'Digital Formidling' => 'Digital Formidling',
+      'Obib' => 'Obib',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',
@@ -23,6 +25,8 @@ function publikumstal_user_default_permissions() {
   $permissions['access own webform results'] = array(
     'name' => 'access own webform results',
     'roles' => array(
+      'Digital Formidling' => 'Digital Formidling',
+      'Obib' => 'Obib',
       'administrator' => 'administrator',
     ),
     'module' => 'webform',

@@ -37,99 +37,101 @@ function publikumstal_views_default_views() {
   $handler->display->display_options['fields']['serial']['id'] = 'serial';
   $handler->display->display_options['fields']['serial']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['serial']['field'] = 'serial';
+  $handler->display->display_options['fields']['serial']['label'] = 'id';
   $handler->display->display_options['fields']['serial']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['serial']['separator'] = '';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value']['id'] = 'value';
   $handler->display->display_options['fields']['value']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value']['field'] = 'value';
-  $handler->display->display_options['fields']['value']['label'] = 'Title';
+  $handler->display->display_options['fields']['value']['label'] = 'titel';
   $handler->display->display_options['fields']['value']['format'] = 'text';
   $handler->display->display_options['fields']['value']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value']['webform_cid'] = '4';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value_1']['id'] = 'value_1';
   $handler->display->display_options['fields']['value_1']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value_1']['field'] = 'value';
-  $handler->display->display_options['fields']['value_1']['label'] = 'Kategori';
+  $handler->display->display_options['fields']['value_1']['label'] = 'kategori';
   $handler->display->display_options['fields']['value_1']['format'] = 'text';
   $handler->display->display_options['fields']['value_1']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_1']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_1']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_1']['webform_cid'] = '1';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value_2']['id'] = 'value_2';
   $handler->display->display_options['fields']['value_2']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value_2']['field'] = 'value';
-  $handler->display->display_options['fields']['value_2']['label'] = 'Målgruppe';
+  $handler->display->display_options['fields']['value_2']['label'] = 'maalgruppe';
   $handler->display->display_options['fields']['value_2']['format'] = 'text';
   $handler->display->display_options['fields']['value_2']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_2']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_2']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_2']['webform_cid'] = '2';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value_3']['id'] = 'value_3';
   $handler->display->display_options['fields']['value_3']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value_3']['field'] = 'value';
-  $handler->display->display_options['fields']['value_3']['label'] = 'Arrangementstype';
+  $handler->display->display_options['fields']['value_3']['label'] = 'arrangementstype';
   $handler->display->display_options['fields']['value_3']['format'] = 'text';
   $handler->display->display_options['fields']['value_3']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_3']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_3']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_3']['webform_cid'] = '3';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value_4']['id'] = 'value_4';
   $handler->display->display_options['fields']['value_4']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value_4']['field'] = 'value';
-  $handler->display->display_options['fields']['value_4']['label'] = 'Antal deltagere';
+  $handler->display->display_options['fields']['value_4']['label'] = 'deltagere';
   $handler->display->display_options['fields']['value_4']['format'] = 'text';
   $handler->display->display_options['fields']['value_4']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_4']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_4']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_4']['webform_cid'] = '5';
   $handler->display->display_options['fields']['value_4']['webform_datatype'] = 'number';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value_5']['id'] = 'value_5';
   $handler->display->display_options['fields']['value_5']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value_5']['field'] = 'value';
-  $handler->display->display_options['fields']['value_5']['label'] = 'Lokation/Afdeling';
+  $handler->display->display_options['fields']['value_5']['label'] = 'lokation';
   $handler->display->display_options['fields']['value_5']['format'] = 'text';
   $handler->display->display_options['fields']['value_5']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_5']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_5']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_5']['webform_cid'] = '6';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value_6']['id'] = 'value_6';
   $handler->display->display_options['fields']['value_6']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value_6']['field'] = 'value';
-  $handler->display->display_options['fields']['value_6']['label'] = 'Antal udervisere';
+  $handler->display->display_options['fields']['value_6']['label'] = 'undervisere';
   $handler->display->display_options['fields']['value_6']['format'] = 'text';
   $handler->display->display_options['fields']['value_6']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_6']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_6']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_6']['webform_cid'] = '7';
   $handler->display->display_options['fields']['value_6']['webform_datatype'] = 'number';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value_7']['id'] = 'value_7';
   $handler->display->display_options['fields']['value_7']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value_7']['field'] = 'value';
-  $handler->display->display_options['fields']['value_7']['label'] = 'Dato';
+  $handler->display->display_options['fields']['value_7']['label'] = 'dato';
   $handler->display->display_options['fields']['value_7']['format'] = 'text';
   $handler->display->display_options['fields']['value_7']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_7']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_7']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_7']['webform_cid'] = '8';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value_8']['id'] = 'value_8';
   $handler->display->display_options['fields']['value_8']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value_8']['field'] = 'value';
-  $handler->display->display_options['fields']['value_8']['label'] = 'Starttidspunkt';
+  $handler->display->display_options['fields']['value_8']['label'] = 'starttidspunkt';
   $handler->display->display_options['fields']['value_8']['format'] = 'text';
   $handler->display->display_options['fields']['value_8']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_8']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_8']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_8']['webform_cid'] = '9';
   $handler->display->display_options['fields']['value_8']['webform_datatype'] = 'number';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value_9']['id'] = 'value_9';
   $handler->display->display_options['fields']['value_9']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value_9']['field'] = 'value';
-  $handler->display->display_options['fields']['value_9']['label'] = 'Sluttidspunkt';
+  $handler->display->display_options['fields']['value_9']['label'] = 'sluttidspunkt';
   $handler->display->display_options['fields']['value_9']['format'] = 'text';
   $handler->display->display_options['fields']['value_9']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_9']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_9']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_9']['webform_cid'] = '10';
   $handler->display->display_options['fields']['value_9']['webform_datatype'] = 'number';
   /* Field: Webform submission data: Value */
@@ -139,17 +141,17 @@ function publikumstal_views_default_views() {
   $handler->display->display_options['fields']['value_10']['label'] = 'Forberedelsestid';
   $handler->display->display_options['fields']['value_10']['format'] = 'text';
   $handler->display->display_options['fields']['value_10']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_10']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_10']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_10']['webform_cid'] = '11';
   $handler->display->display_options['fields']['value_10']['webform_datatype'] = 'number';
   /* Field: Webform submission data: Value */
   $handler->display->display_options['fields']['value_11']['id'] = 'value_11';
   $handler->display->display_options['fields']['value_11']['table'] = 'webform_submissions';
   $handler->display->display_options['fields']['value_11']['field'] = 'value';
-  $handler->display->display_options['fields']['value_11']['label'] = 'Ansvarlig (initialer)';
+  $handler->display->display_options['fields']['value_11']['label'] = 'ansvarlig';
   $handler->display->display_options['fields']['value_11']['format'] = 'text';
   $handler->display->display_options['fields']['value_11']['custom_label'] = 'custom';
-  $handler->display->display_options['fields']['value_11']['webform_nid'] = '17941';
+  $handler->display->display_options['fields']['value_11']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_11']['webform_cid'] = '14';
   /* Contextual filter: Webform submissions: Node */
   $handler->display->display_options['arguments']['nid']['id'] = 'nid';
@@ -158,7 +160,7 @@ function publikumstal_views_default_views() {
   $handler->display->display_options['arguments']['nid']['default_action'] = 'default';
   $handler->display->display_options['arguments']['nid']['exception']['title'] = 'Alle';
   $handler->display->display_options['arguments']['nid']['default_argument_type'] = 'fixed';
-  $handler->display->display_options['arguments']['nid']['default_argument_options']['argument'] = '17941';
+  $handler->display->display_options['arguments']['nid']['default_argument_options']['argument'] = '17977';
   $handler->display->display_options['arguments']['nid']['summary']['number_of_records'] = '0';
   $handler->display->display_options['arguments']['nid']['summary']['format'] = 'default_summary';
   $handler->display->display_options['arguments']['nid']['summary_options']['items_per_page'] = '25';
@@ -172,6 +174,14 @@ function publikumstal_views_default_views() {
   $handler->display->display_options['pager']['type'] = 'none';
   $handler->display->display_options['pager']['options']['offset'] = '0';
   $handler->display->display_options['style_plugin'] = 'views_data_export_csv';
+  $handler->display->display_options['style_options']['provide_file'] = 1;
+  $handler->display->display_options['style_options']['parent_sort'] = 0;
+  $handler->display->display_options['style_options']['quote'] = 1;
+  $handler->display->display_options['style_options']['trim'] = 0;
+  $handler->display->display_options['style_options']['replace_newlines'] = 0;
+  $handler->display->display_options['style_options']['newline_token'] = '1';
+  $handler->display->display_options['style_options']['header'] = 1;
+  $handler->display->display_options['style_options']['keep_html'] = 0;
   $handler->display->display_options['path'] = 'publikumstal/csv';
   $translatables['publikumstal'] = array(
     t('Master'),
@@ -189,21 +199,20 @@ function publikumstal_views_default_views() {
     t('‹ previous'),
     t('next ›'),
     t('last »'),
-    t('Serial number'),
+    t('id'),
     t('.'),
-    t(','),
-    t('Title'),
-    t('Kategori'),
-    t('Målgruppe'),
-    t('Arrangementstype'),
-    t('Antal deltagere'),
-    t('Lokation/Afdeling'),
-    t('Antal udervisere'),
-    t('Dato'),
-    t('Starttidspunkt'),
-    t('Sluttidspunkt'),
+    t('titel'),
+    t('kategori'),
+    t('maalgruppe'),
+    t('arrangementstype'),
+    t('deltagere'),
+    t('lokation'),
+    t('undervisere'),
+    t('dato'),
+    t('starttidspunkt'),
+    t('sluttidspunkt'),
     t('Forberedelsestid'),
-    t('Ansvarlig (initialer)'),
+    t('ansvarlig'),
     t('Alle'),
     t('Page'),
     t('Data export'),
