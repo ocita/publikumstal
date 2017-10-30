@@ -153,6 +153,24 @@ function publikumstal_views_default_views() {
   $handler->display->display_options['fields']['value_11']['custom_label'] = 'custom';
   $handler->display->display_options['fields']['value_11']['webform_nid'] = '17977';
   $handler->display->display_options['fields']['value_11']['webform_cid'] = '14';
+  /* Field: Webform submission data: Value */
+  $handler->display->display_options['fields']['value_13']['id'] = 'value_13';
+  $handler->display->display_options['fields']['value_13']['table'] = 'webform_submissions';
+  $handler->display->display_options['fields']['value_13']['field'] = 'value';
+  $handler->display->display_options['fields']['value_13']['label'] = 'eksterne partnere?';
+  $handler->display->display_options['fields']['value_13']['format'] = 'text';
+  $handler->display->display_options['fields']['value_13']['custom_label'] = 'custom';
+  $handler->display->display_options['fields']['value_13']['webform_nid'] = '17977';
+  $handler->display->display_options['fields']['value_13']['webform_cid'] = '12';
+  /* Field: Webform submission data: Value */
+  $handler->display->display_options['fields']['value_12']['id'] = 'value_12';
+  $handler->display->display_options['fields']['value_12']['table'] = 'webform_submissions';
+  $handler->display->display_options['fields']['value_12']['field'] = 'value';
+  $handler->display->display_options['fields']['value_12']['label'] = 'eksterne oplægsholder/underviser';
+  $handler->display->display_options['fields']['value_12']['format'] = 'text';
+  $handler->display->display_options['fields']['value_12']['custom_label'] = 'custom';
+  $handler->display->display_options['fields']['value_12']['webform_nid'] = '17977';
+  $handler->display->display_options['fields']['value_12']['webform_cid'] = '16';
   /* Contextual filter: Webform submissions: Node */
   $handler->display->display_options['arguments']['nid']['id'] = 'nid';
   $handler->display->display_options['arguments']['nid']['table'] = 'webform_submissions';
@@ -213,6 +231,8 @@ function publikumstal_views_default_views() {
     t('sluttidspunkt'),
     t('Forberedelsestid'),
     t('ansvarlig'),
+    t('eksterne partnere?'),
+    t('eksterne oplægsholder/underviser'),
     t('Alle'),
     t('Page'),
     t('Data export'),
